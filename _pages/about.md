@@ -38,7 +38,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         Different types of generation tasks, such as dialogue generation, question answering, language modeling, and code generation, are of particular interest to me. Generally speaking, I am curious about designing task-specific methods to help model better comprehend dynamic semantic information (on the encoder side) and produce complex outcomes (on the decoder side) in seq2seq generation framework.
         </p>
 
-        Check my resume <a class="ml-auto mr-2" href="/assets/pdf/resume.pdf" target="_blank"><img height="25px" src="/assets/img/pdf_icon.svg"></a>for more detials, lastest update on <i>Aug 31, 2022</i>.
+        Refer to my resume <a class="ml-auto mr-2" href="/assets/pdf/resume.pdf" target="_blank"><img height="25px" src="/assets/img/pdf_icon.svg"></a>for more details, lastest update on <i>Aug 31, 2022</i>.
 
 
     </div>
