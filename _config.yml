@@ -2,9 +2,9 @@
 # Site Settings
 # -----------------------------------------------------------------------------
 
-name: Rishabh Joshi
-email: rishabhjoshi0407@gmail.com
-description: Personal website of Rishabh Joshi.
+name: Haofei Yu
+email: haofeiy@cs.cmu.edu
+description: Personal website of Haofei Yu.
 
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -17,11 +17,11 @@ baseurl:  # the subpath of your site, e.g. /blog/
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
-scholar_userid: vu2pNVAAAAAJ
-github_username: rishabhjoshi 
-linkedin_username: joshi-rishabh 
-facebook_username: rishabh.joshi.047
-twitter_username: rishabh_joshi4
+#scholar_userid: vu2pNVAAAAAJ
+github_username: lwaekfjlk
+linkedin_username: haofei-yu-a04247188
+#facebook_username: rishabh.joshi.047
+twitter_username: lwaekfjlk
 contact_note: Feel free to drop me a line via e-mail.
 
 

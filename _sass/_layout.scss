@@ -78,7 +78,8 @@ progress {
 .profile-img {
   @include img-fluid;
   // @include shadow;
-
+  max-width: 85%;
+  border-radius: 15px;
   width: auto;
 }
 
