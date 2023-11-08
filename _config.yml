@@ -11,17 +11,18 @@ description: Personal website of Haofei Yu.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # last_updated: true
 
-url:  # the base hostname & protocol for your site
+repository: lwaekfjlk/lwaekfjlk.github.io
+url: https://haofeiyu.me # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
-#scholar_userid: vu2pNVAAAAAJ
+scholar_userid: EL-QbZ4AAAAJ
 github_username: lwaekfjlk
 linkedin_username: haofei-yu-a04247188
 #facebook_username: rishabh.joshi.047
-twitter_username: lwaekfjlk
+twitter_username: haofeiyu44
 contact_note: Feel free to drop me a line via e-mail.
 
 
@@ -80,7 +81,7 @@ include: ['_pages']
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll/scholar
+  - jekyll-scholar
   - jemoji
 
 # Jekyll-Scholar

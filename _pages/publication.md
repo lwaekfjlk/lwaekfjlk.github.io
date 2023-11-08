@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /publications/
-title: Publications
-nav: publications
+permalink: /publication/
+title: Publication
+nav: publication
 description: <nobr><em>*</em></nobr> denotes equal contribution and joint lead authorship.
-years: [2021, 2020, 2018]
+years: [2023]
 ---
 
 <br/>
