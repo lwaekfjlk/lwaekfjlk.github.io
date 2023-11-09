@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 nav: teaching
-description: classes, and roles
+description: listing TA experience, and academy roles
 ---
 
 <h3 class="mt-4">Carnegie Mellon University</h3>

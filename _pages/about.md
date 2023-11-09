@@ -20,36 +20,66 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
 <!-- Introduction -->
 
 <div style="display: flex; flex-wrap: wrap;">
-    <div class="text-justify p-0">
-        <div class="col-xs-12 col-sm-6 p-0 pt-2 pb-sm-2 pb-4 pl-sm-4 text-center" style="float: right;">
-          <img class="profile-img img-responsive" src="{{ 'self_pic.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+    <section class="profile">
+        <!-- Avoid inline styles where possible and use a separate CSS file or <style> block -->
+        <div class="profile-image-container">
+            <!-- Use alt attribute for accessibility and descriptive image names -->
+            <img class="profile-img" src="{{ '/assets/img/self_pic.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Profile Picture">
         </div>
 
+        <!-- Use <p> tag for paragraphs instead of <br> for better semantics and readability -->
         <p>
-        Currently, I'm pursuing a Master of Science in Intelligent Information Systems at the
-        <a href="http://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a>,
-        <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a>,
-        Carnegie Mellon University.
+            I am currently in the second year at Carnegie Mellon University, pursuing a Master of Science in Intelligent Information Systems within the 
+            <a href="http://www.lti.cs.cmu.edu/" target="_blank" rel="noopener">Language Technologies Institute</a> of the 
+            <a href="http://www.cs.cmu.edu/" target="_blank" rel="noopener">School of Computer Science</a>.
         </p>
 
         <p>
-        I completed my Bachelor's in Computer Science and Technology at
-        <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank">ChuKochen Honors College</a>,
-        <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a>,
-        engaging in NLP research at
-        <a href="https://en.westlake.edu.cn/" target="_blank">Westlake University</a>
-        and
-        <a href="https://ai.tencent.com/ailab/nlp/en/index.html" target="_blank">Tencent AI Lab's NLP Center</a>.
+            Before embarking on my journey at CMU, I laid my academic foundations at the
+            <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank" rel="noopener">ChuKochen Honors College</a> of
+            <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>, where I obtained my Bachelor's degree in Computer Science and Technology (with honors). During my years there, I had the privilege of delving into Natural Language Processing (NLP) research, contributing to natural language processing research at
+            <a href="https://en.westlake.edu.cn/" target="_blank" rel="noopener">Westlake University</a> and
+            <a href="https://ai.tencent.com/ailab/nlp/en/index.html" target="_blank" rel="noopener">Tencent AI Lab's NLP Center</a>.
         </p>
 
         <p>
-        At CMU, my research is centered on developing multisensory agents inspired by consciousness theory, under the mentorship of Professors Graham Neubig, Louis-Philippe Morency, and Ruslan Salakhutdinov. These projects span diverse applications such as web navigation, code execution, and social interaction. Additionally, I've collaborated with Prof. David Mortensen on the linguistic wug test.
+            At CMU, my research changing from natural language processing to more interesting stuff. I did research on crafting multisensory agents for real-world applications like web navigation, code generation, and social dynamics. Agent architectures are motivated based on cognitive theory like Consciousness Turning Machine and Global Workspace Theory. Simultaneously, my internship at 
+            <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple's Siri Information and Intelligence Team</a> focuses on long-form Web QA to effectively resolve real Siri user queries.
         </p>
 
+        <p>
+            My motivation for research is to do fun 🤩 research related to all types of magic 🪄 things like let AI help me shop 🛍️ and write report for me ✏️. My ultimate research goal is to connect consciousness theory 🧠 with real AI system. The figure below presents details of my research scope.
+        </p>
 
-
-    </div>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+            <!-- Use alt attribute for accessibility and descriptive image names -->
+            <img class="profile-img" src="{{ '/assets/img/research_line.png' | prepend: site.baseurl | prepend: site.url }}" alt="Research Line">
+        </div>
+    </section>
 </div>
+
+<!-- Add CSS (either inline or preferably in a separate stylesheet) -->
+<style>
+.profile {
+    padding: 0;
+}
+.profile-image-container {
+    max-width: 50%;
+    float: right;
+    padding: 0.5rem;
+}
+.profile-img {
+    width: 100%;
+    height: auto; /*to maintain aspect ratio*/
+}
+@media screen and (max-width: 576px) {
+    .profile-image-container {
+        max-width: 100%;
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+}
+</style>
 
 
 <!-- News -->

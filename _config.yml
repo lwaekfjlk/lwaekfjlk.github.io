@@ -21,7 +21,7 @@ baseurl:  # the subpath of your site, e.g. /blog/
 scholar_userid: EL-QbZ4AAAAJ
 github_username: lwaekfjlk
 linkedin_username: haofei-yu-a04247188
-#facebook_username: rishabh.joshi.047
+#facebook_username: 
 twitter_username: haofeiyu44
 contact_note: Feel free to drop me a line via e-mail.
 
@@ -86,7 +86,7 @@ plugins:
 
 # Jekyll-Scholar
 scholar:
-  last_name: Joshi
+  last_name: Yu
   style: apa
   locale: en
   sort_by: year
