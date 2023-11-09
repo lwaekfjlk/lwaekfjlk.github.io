@@ -26,17 +26,26 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </div>
 
         <p>
-        I am currently a second year of Master of Science in Intelligent Information Systems student in the <a href="http://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a>, <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.
-        </p>
-    
-        <p>
-        Prior to CMU, I obtained my Bachelor's degree of Computer Science and Technology from <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank">ChuKochen Honors College</a>, <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a> in China.
-        During my undergraduate studies, I was a member of the Mixed Class of 2022 and felt honoured to participate in NLP research at <a href="https://en.westlake.edu.cn/" target="_blank">Westlake University</a> and <a href="https://ai.tencent.com/ailab/nlp/en/index.html" target="_blank">Tencent AI Lab (NLP Center)</a>.
+        Currently, I'm pursuing a Master of Science in Intelligent Information Systems at the
+        <a href="http://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a>,
+        <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a>,
+        Carnegie Mellon University.
         </p>
 
         <p>
-        During CMU, I target at crafting multisensory agent based on consciousness theory. I worked with Prof. Graham Neubig, Prof. Louis-Philippe Morency, and Prof. Ruslan Salakhutdinov towards building a cognitive-driven multisensory agent for real-world applications like web navigation, code execution, social interaction. Additionally, I had a good time working with Prof. David Mortensen on linguistic wug test.
+        I completed my Bachelor's in Computer Science and Technology at
+        <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank">ChuKochen Honors College</a>,
+        <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a>,
+        engaging in NLP research at
+        <a href="https://en.westlake.edu.cn/" target="_blank">Westlake University</a>
+        and
+        <a href="https://ai.tencent.com/ailab/nlp/en/index.html" target="_blank">Tencent AI Lab's NLP Center</a>.
         </p>
+
+        <p>
+        At CMU, my research is centered on developing multisensory agents inspired by consciousness theory, under the mentorship of Professors Graham Neubig, Louis-Philippe Morency, and Ruslan Salakhutdinov. These projects span diverse applications such as web navigation, code execution, and social interaction. Additionally, I've collaborated with Prof. David Mortensen on the linguistic wug test.
+        </p>
+
 
 
     </div>
