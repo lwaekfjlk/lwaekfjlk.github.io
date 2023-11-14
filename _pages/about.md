@@ -48,7 +48,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </p>
 
         <p>
-            My motivation for research is to do fun 🤩 research related to all types of magic 🪄 things like let AI help me shop 🛍️ and write report for me ✏️. My ultimate research goal is to connect consciousness theory 🧠 with real AI system. The figure below presents details of my research scope.
+            My motivation for research is to do fun 🤩 research related to all types of magic things like let AI help me shop 🛍️ and write report for me ✏️. My ultimate research goal is to connect consciousness theory 🧠 with real AI system. The figure below presents details of my research scope.
         </p>
 
         <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
