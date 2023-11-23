@@ -2,6 +2,16 @@
 ---
 
 @inproceedings{zhou2023sotopia,
+  title     = {MMOE: Mixture of Multimodal Interaction Experts},
+  author    = {<nobr><em>Yu</em></nobr>, <nobr><em>Haofei</em></nobr> and Paul Pu Liang and Ruslan Salakhutdinov and Louis-Philippe Morency},
+  booktitle = {arXiv},
+  year      = {2023},
+  abbr      = {preprint},
+  pdf       = {https://arxiv.org/abs/2311.09580},
+  abstract  = {Multimodal machine learning, which studies the information and interactions across various input modalities, has made significant advancements in understanding the relationship between images and descriptive text. However, this is just a portion of the potential multimodal interactions seen in the real world and does not include new interactions between conflicting utterances and gestures in predicting sarcasm, for example. Notably, the current methods for capturing shared information often do not extend well to these more nuanced interactions, sometimes performing as low as 50% in binary classification. In this paper, we address this problem via a new approach called MMOE, which stands for a mixture of multimodal interaction experts. Our method automatically classifies data points from unlabeled multimodal datasets by their interaction type and employs specialized models for each specific interaction. Based on our experiments, this approach improves performance on these challenging interactions by more than 10%, leading to an overall increase of 2% for tasks like sarcasm prediction. As a result, interaction quantification provides new insights for dataset analysis and yields simple approaches that obtain state-of-the-art performance.}
+}
+
+@inproceedings{yu2023mmoe,
   title     = {SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents},
   author    = {Xuhui Zhou* and Hao Zhu* and Mathur, Leena and Zhang, Ruohong and <nobr><em>Yu</em></nobr>, <nobr><em>Haofei</em></nobr> and Qi, Zhengyang and Morency, Louis-Philippe and Bisk, Yonatan and Fried, Daniel and Neubig, Graham and others},
   booktitle = {arXiv},
@@ -11,6 +21,7 @@
   code      = {https://github.com/sotopia-lab/sotopia},
   abstract  = {Humans are social beings; we pursue social goals in our daily interactions, which is a crucial aspect of social intelligence. Yet, AI systems' abilities in this realm remain elusive. We present SOTOPIA, an open-ended environment to simulate complex social interactions between artificial agents and evaluate their social intelligence. In our environment, agents role-play and interact under a wide variety of scenarios; they coordinate, collaborate, exchange, and compete with each other to achieve complex social goals. We simulate the role-play interaction between LLM-based agents and humans within this task space and evaluate their performance with a holistic evaluation framework called SOTOPIA-Eval. With SOTOPIA, we find significant differences between these models in terms of their social intelligence, and we identify a subset of SOTOPIA scenarios, SOTOPIA-hard, that is generally challenging for all models. We find that on this subset, GPT-4 achieves a significantly lower goal completion rate than humans and struggles to exhibit social commonsense reasoning and strategic communication skills. These findings demonstrate SOTOPIA's promise as a general platform for research on evaluating and improving social intelligence in artificial agents.}
 }
+
 
 @inproceedings{yu2023trams,
   title     = {TRAMS: Training-free Memory Selection for Long-range Language Modeling},
@@ -48,7 +59,7 @@
 @inproceedings{song-etal-2023-uni,
   title     = {Uni-Encoder: A Fast and Accurate Response Selection Paradigm for Generation-Based Dialogue Systems},
   author    = {Chiyu Song*  and Hongliang He*  and <nobr><em>Yu</em></nobr>, <nobr><em>Haofei</em></nobr>  and Fang, Pengfei  and Cui, Leyang  and Lan, Zhenzhong},
-  booktitle = {Findings of ACL 2023},
+  booktitle = {Findings of ACL},
   year      = {2023},
   abbr      = {ACL Findings 2023},
   code = {https://github.com/dll-wu/Uni-Encoder},
@@ -56,6 +67,13 @@
   abstract  = {Sample-and-rank is a key decoding strategy for modern generation-based dialogue systems. It helps achieve diverse and high-quality responses by selecting an answer from a small pool of generated candidates. The current state-of-the-art ranking methods mainly use an encoding paradigm called Cross-Encoder, which separately encodes each context-candidate pair and ranks the candidates according to their fitness scores. However, Cross-Encoder repeatedly encodes the same lengthy context for each candidate, resulting in high computational costs. Poly-Encoder addresses the above problems by reducing the interaction between context and candidates, but with a price of performance drop. In this work, we develop a new paradigm called Uni-Encoder, that keeps the full attention over each pair as in Cross-Encoder while only encoding the context once, as in Poly-Encoder. Uni-Encoder encodes all the candidates with the context in one forward pass. We use the same positional embedding for all candidates to ensure they are treated equally and design a new attention mechanism to avoid confusion. Our Uni-Encoder can simulate other ranking paradigms using different attention and response concatenation methods. Extensive experiments show that our proposed paradigm achieves new state-of-the-art results on four benchmark datasets with high computational efficiency. For instance, it improves R10@1 by 2.9{\%} with an approximately 4X faster inference speed on the Ubuntu V2 dataset.}
 }
 
-
+@misc{,
+  title         = {},
+  author        = {},
+  year          = {2023},
+  eprint        = {2311.09580},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL}
+}
 
 
