@@ -28,6 +28,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </div>
 
         <!-- Use <p> tag for paragraphs instead of <br> for better semantics and readability -->
+        <h4>Background</h4>
         <p>
             I am currently in the second year at Carnegie Mellon University, pursuing a Master of Science in Intelligent Information Systems within the 
             <a href="http://www.lti.cs.cmu.edu/" target="_blank" rel="noopener">Language Technologies Institute</a> of the 
@@ -43,17 +44,35 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </p>
 
         <p>
-            At CMU, my research changing from natural language processing to more interesting stuff. I did research on crafting multisensory agents for real-world applications like web navigation, code generation, and social dynamics. Agent architectures are motivated based on cognitive theory like Consciousness Turning Machine and Global Workspace Theory. Simultaneously, my internship at 
-            <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple's Siri Information and Intelligence Team</a> focuses on long-form Web QA to effectively resolve real Siri user queries.
+            At CMU, my research changing from natural language processing to more interesting stuff. I did research on crafting language agents for better social interaction in negotiation and collaboration scenarios. Additionally, I worked on models that utilize multimodal information and models that generate executable actions like web navigation and code generation. 
         </p>
 
         <p>
-            My motivation for research is to do fun 🤩 research related to all types of magic things like let AI help me shop 🛍️ and write report for me ✏️. My ultimate research goal is to connect consciousness theory 🧠 with real AI system. The figure below presents details of my research scope.
+            Simultaneously, my 2023 summer internship at 
+            <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple's Siri Information and Intelligence Team</a> focuses on long-form Web QA to effectively resolve real Siri user queries.
         </p>
+
+        <h4>Research Interest</h4>
+        <p>
+            My research enthusiasm lies in applying AI to everyday tasks. My primary goal is to develop a multimodal agent tailored for real-world applications, blending the practical with the magical in technology. To achieve this goal, I identified three main challenges: 
+        </p>
+        <p>
+        <strong>Challenge1 Multimodal Fusion</strong> Enable the agent to combine and intergrate heterogeneous real world data to understand multimodal concepts, including sarcasm and deception.
+        </p>
+
+        <p>
+        <strong>Challenge2 Multimodal Interaction</strong> Enable the agent to provide feedback, including both language and executable action, to the real world in multi-turn, multi-step, and interactive styles. 
+        </p>
+        
+        <p>
+        <strong>Challenge3 Memory Management</strong> Equip the agent with a dynmaic memory system that adapts to new information while retaining essential past experiences, mirroring the evolving nature of the real world.
+        </p>
+
+        <p> The following figure is an overview of 3 challenges in the observation-feedback loop for multimodal agent, accompanied by a snapshot of my current research progress on each of them, including ongoing work.</p>
 
         <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
             <!-- Use alt attribute for accessibility and descriptive image names -->
-            <img class="profile-img" src="{{ '/assets/img/research_line.png' | prepend: site.baseurl | prepend: site.url }}" alt="Research Line">
+            <img class="profile-img" src="{{ '/assets/img/statement.png' | prepend: site.baseurl | prepend: site.url }}" alt="Research Line">
         </div>
     </section>
 </div>
