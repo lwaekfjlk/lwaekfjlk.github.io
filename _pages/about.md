@@ -24,7 +24,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         <!-- Avoid inline styles where possible and use a separate CSS file or <style> block -->
         <div class="profile-image-container">
             <!-- Use alt attribute for accessibility and descriptive image names -->
-            <img class="profile-img" src="{{ '/assets/img/self_pic.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Profile Picture">
+            <img class="profile-img" src="{{ '/assets/img/self_pic2.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Profile Picture">
         </div>
 
         <!-- Use <p> tag for paragraphs instead of <br> for better semantics and readability -->
