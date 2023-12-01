@@ -24,7 +24,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         <!-- Avoid inline styles where possible and use a separate CSS file or <style> block -->
         <div class="profile-image-container">
             <!-- Use alt attribute for accessibility and descriptive image names -->
-            <img class="profile-img" src="{{ '/assets/img/self_pic2.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Profile Picture">
+            <img class="profile-img" src="{{ '/assets/img/self_pic_2.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Profile Picture">
         </div>
 
         <!-- Use <p> tag for paragraphs instead of <br> for better semantics and readability -->
@@ -83,9 +83,12 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
     padding: 0;
 }
 .profile-image-container {
-    max-width: 50%;
-    float: right;
-    padding: 0.5rem;
+    display: flex;
+    justify-content: center; /*Center horizontally */
+    align-items: center;     /* Center vertically*/
+    max-width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 2.5rem;
 }
 .profile-img {
     width: 100%;

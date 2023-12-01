@@ -123,7 +123,7 @@
         <!-- Avoid inline styles where possible and use a separate CSS file or <style> block -->
         <div class="profile-image-container">
             <!-- Use alt attribute for accessibility and descriptive image names -->
-            <img class="profile-img" src="http://localhost:4000/assets/img/self_pic2.jpg" alt="Profile Picture" />
+            <img class="profile-img" src="http://localhost:4000/assets/img/self_pic_2.jpg" alt="Profile Picture" />
         </div>
 
         <!-- Use <p> tag for paragraphs instead of <br> for better semantics and readability -->
@@ -182,9 +182,12 @@
     padding: 0;
 }
 .profile-image-container {
-    max-width: 50%;
-    float: right;
-    padding: 0.5rem;
+    display: flex;
+    justify-content: center; /*Center horizontally */
+    align-items: center;     /* Center vertically*/
+    max-width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 2.5rem;
 }
 .profile-img {
     width: 100%;
