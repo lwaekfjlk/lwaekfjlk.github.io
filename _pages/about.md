@@ -36,7 +36,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </p>
 
         <p>
-            Before embarking on my journey at CMU, I laid my academic foundations at the
+            Before my journey at CMU, I laid my academic foundations at the
             <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank" rel="noopener">ChuKochen Honors College</a> of
             <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>, where I obtained my Bachelor's degree in Computer Science and Technology (with honors). During my years there, I had the privilege of delving into Natural Language Processing (NLP) research, contributing to natural language processing research at
             <a href="https://en.westlake.edu.cn/" target="_blank" rel="noopener">Westlake University</a> and
@@ -44,28 +44,31 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </p>
 
         <p>
-            At CMU, my research changing from natural language processing to more interesting stuff. I did research on crafting language agents for better social interaction in negotiation and collaboration scenarios. Additionally, I worked on models that utilize multimodal information and models that generate executable actions like web navigation and code generation. 
+            At CMU, my research changing from natural language processing to more interesting and grounded stuff. Instead of doing research on traditional NLP tasks, I studied crafting language agents for better social interaction in negotiation and collaboration scenarios. Additionally, I worked on models that fuse multimodal information and models that generate executable actions like web navigation and code generation. 
         </p>
 
         <p>
-            Simultaneously, my 2023 summer internship at 
-            <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple's Siri Information and Intelligence Team</a> focuses on long-form Web QA to effectively resolve real Siri user queries.
+            Moreover, my 2023 summer internship at 
+            <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple's Siri Information and Intelligence Team</a> focuses on long-form Web QA to effectively resolve real Siri user queries in industry.
         </p>
 
         <h4>Research Interest</h4>
         <p>
-            My research enthusiasm lies in applying AI to everyday tasks. My primary goal is to develop a multimodal agent tailored for real-world applications, blending the practical with the magical in technology. To achieve this goal, I identified three main challenges: 
+            My research enthusiasm lies in applying AI to grounded tasks. My primary goal is to develop a multimodal agent tailored for real-world applications, blending the practical with the magical in technology. To achieve this goal, I identified three main challenges: 
         </p>
         <p>
-        <strong>Challenge1 Multimodal Fusion</strong> Enable the agent to combine and intergrate heterogeneous real world data to understand multimodal concepts, including sarcasm and deception.
+        <strong>Challenge1 Multimodal Fusion</strong> <br>
+        How to allow the agent to fuse heterogeneous data and understand multimodal concepts like sarcasm.
         </p>
 
         <p>
-        <strong>Challenge2 Multimodal Interaction</strong> Enable the agent to provide feedback, including both language and executable action, to the real world in multi-turn, multi-step, and interactive styles. 
+        <strong>Challenge2 Multimodal Interaction</strong> <br>
+        How to enable the agent to provide feedback, including language and executable action, to the real world interactively.
         </p>
         
         <p>
-        <strong>Challenge3 Memory Management</strong> Equip the agent with a dynmaic memory system that adapts to new information while retaining essential past experiences, mirroring the evolving nature of the real world.
+        <strong>Challenge3 Memory Management</strong> <br>
+        How to equip the agent with a memory system that adapts to new information while retaining past ones.
         </p>
 
         <p> The following figure is an overview of 3 challenges in the observation-feedback loop for multimodal agent, accompanied by a snapshot of my current research progress on each of them, including ongoing work.</p>
