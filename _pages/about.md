@@ -25,6 +25,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         <div class="profile-image-container">
             <!-- Use alt attribute for accessibility and descriptive image names -->
             <img class="profile-img" src="{{ '/assets/img/self_pic_2.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Profile Picture">
+            <figcaption class="profile-caption">Taken at Göreme, Cappadocia, Turkey</figcaption>
         </div>
 
         <!-- Use <p> tag for paragraphs instead of <br> for better semantics and readability -->
@@ -87,15 +88,22 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
 }
 .profile-image-container {
     display: flex;
+    flex-direction: column;
     justify-content: center; /*Center horizontally */
     align-items: center;     /* Center vertically*/
     max-width: 100%;
     padding-top: 0.5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
 }
 .profile-img {
     width: 100%;
     height: auto; /*to maintain aspect ratio*/
+}
+.profile-caption {
+    text-align: center; /* Centers the text of the caption */
+    padding-top: 0.5rem; /* Adds some space between the image and the caption */
+    font-style: italic;
+    /* Add any additional styling you need for the caption here */
 }
 @media screen and (max-width: 576px) {
     .profile-image-container {
