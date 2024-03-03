@@ -1,12 +1,21 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: Academy Role
 nav: teaching
 description: listing TA experience, and academy roles
 ---
 
-<h3 class="mt-4">Carnegie Mellon University</h3>
+<h3 class="mt-4">Reviewing Service</h3>
+
+<div class="card mt-3">
+  <div class="p-3">
+    <h6 class="font-italic mt-2 mt-sm-0">Reviewers for:</h6> 
+    <h6 class="font-italic mt-2 mt-sm-0">NeurIPS 2023 UniReps Workshop / ICLR 2024 AGI Workshop / ARR 2024</h6>
+  </div>
+</div>
+
+<h3 class="mt-4">Teaching Service</h3>
 
 <div class="card mt-3">
   <div class="p-3">
@@ -20,10 +29,30 @@ description: listing TA experience, and academy roles
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Fall 2023: Teaching Assistant</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Fall 2023: Teaching Assistant, Carnegie Mellon University</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">○ Graduate-level introduction to multimodal machine learning, taught by <a href="https://www.cs.cmu.edu/~morency/" target="_blank">Prof. Louis-Phillipe Morency</a> and <a href="https://www.cs.cmu.edu/~pliang/" target="_blank">Paul Pu Liang</a>.</li>
-      <li class="list-group-item">○ I mentored groups of students working on class projects and graded homeworks.</li>
+      <li class="list-group-item">○ I co-hosted one lecture for future directions of multimodal machine learning, mentored groups of students working on class projects and graded homeworks.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold">Advanced Topics in Multimodal Machine Learning</h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+        <span class="badge font-weight-bold danger-color-dark darken-1 text-uppercase align-middle"  href="https://www.cmu.edu/mits/curriculum/core/05-834.html" target="_blank">
+            11-877
+        </span>
+      </div>
+    </div>
+    <h6 class="font-italic mt-2 mt-sm-0">Spring 2024: Teaching Assistant, Carnegie Mellon University</h6>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">○ Graduate-level advanced discussion course about multimodal machine learning, taught by <a href="https://dpfried.github.io/" target="_blank">Prof. Daniel Fried</a> and <a href="https://www.cs.cmu.edu/~pliang/" target="_blank">Paul Pu Liang</a>.</li>
+      <li class="list-group-item">○ I prepared research probes for discussion, co-hosted every course with lecturers, mentored groups of graduate students working on class projects and graded homeworks.</li>
     </ul>
   </div>
 </div>
