@@ -58,7 +58,7 @@
 
             {% for p in site.pages %}
                 {% if p.title %}
-                    {% if p.title == "Projects" %}
+                    {% if p.title == "Projects" or p.title == "Publication" or p.title == "Academy Role" %}
                         {% continue %}
                     {% endif %}
                     {% if p.url != "/" %}
