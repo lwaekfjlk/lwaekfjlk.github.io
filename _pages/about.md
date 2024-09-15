@@ -36,11 +36,11 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
         <p>
             Before UIUC, I got my B.Eng. degree in Computer Science (with honors) at
             <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank" rel="noopener">ChuKochen Honors College</a> of
-            <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>. Afterwards, I got my M.S. in Intelligent Information Systems in <a href="https://www.lti.cs.cmu.edu"  target="_blank" rel="noopener">Language Technologies Institute</a> of <a href="https://www.cs.cmu.edu"  target="_blank" rel="noopener">School of Computer Science</a>.
+            <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>. Afterwards, I got my M.S. in Intelligent Information Systems in <a href="https://www.lti.cs.cmu.edu"  target="_blank" rel="noopener">Language Technologies Institute</a> of <a href="https://www.cs.cmu.edu"  target="_blank" rel="noopener">School of Computer Science</a> at Carnegie Mellon University.
         </p>
 
         <p>
-            I have multiple industrial internship experience including <a href="https://ai.tencent.com/ailab/en/about/" target="_blank" rel="noopener">Tencent AI Lab</a> (2022 Summer), <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple Siri Information and Intelligence Team</a> (2023 Summer), and <a href="https://mitibmwatsonailab.mit.edu" target="_blank" rel="noopener">MIT-IBM Watson AI Lab</a> (2024 Summer). All focusing on language modeling and its applications (long-context, QA, agents).
+            I have multiple industrial internship experiences including <a href="https://ai.tencent.com/ailab/en/about/" target="_blank" rel="noopener">Tencent AI Lab</a> (2022 Summer), <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple Siri Information and Intelligence Team</a> (2023 Summer), and <a href="https://mitibmwatsonailab.mit.edu" target="_blank" rel="noopener">MIT-IBM Watson AI Lab</a> (2024 Summer). All focusing on language modeling and its applications (long-context, QA, agents).
         </p>
 
     </section>
