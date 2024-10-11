@@ -30,7 +30,7 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
 
         <!-- Use <p> tag for paragraphs instead of <br> for better semantics and readability -->
         <p>
-            I am currently a 1-year Computer Science PhD student at University of Illinois Urbana-Champaign advised by <a href="https://cs.stanford.edu/people/jiaxuan/" target="_blank" rel="noopener">Jiaxuan You</a>. I also work closely with <a href="https://pliang279.github.io/" target="_blank" rel="noopener">Paul Pu Liang</a>. My main research interests lie in language agents and automatic research.
+            I am currently a first-year Computer Science PhD student at University of Illinois Urbana-Champaign advised by <a href="https://cs.stanford.edu/people/jiaxuan/" target="_blank" rel="noopener">Jiaxuan You</a>. I also work closely with <a href="https://pliang279.github.io/" target="_blank" rel="noopener">Paul Pu Liang</a>. My main research interests lie in language agents and automatic research.
         </p>
 
         <p>
