@@ -25,18 +25,18 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
         <div class="profile-image-container">
             <!-- Use alt attribute for accessibility and descriptive image names -->
             <img class="profile-img" src="{{ '/assets/img/self_pic_2.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Profile Picture">
-            <figcaption class="profile-caption" style="font-size: 0.83em;">Taken at Göreme, Cappadocia, Turkey</figcaption>
+            <figcaption class="profile-caption" style="font-size: 0.83em;">Taken at <a href="https://en.wikipedia.org/wiki/G%C3%B6reme" target="_blank" rel="noopener">Göreme</a>, Cappadocia, Turkey. Credit to <a href="https://zns77.github.io/" target="_blank" rel="noopener">Naisong</a>.</figcaption>
         </div>
 
         <!-- Use <p> tag for paragraphs instead of <br> for better semantics and readability -->
         <p>
-            I am currently a first-year Computer Science PhD student at University of Illinois Urbana-Champaign advised by <a href="https://cs.stanford.edu/people/jiaxuan/" target="_blank" rel="noopener">Jiaxuan You</a>. I also work closely with <a href="https://pliang279.github.io/" target="_blank" rel="noopener">Paul Pu Liang</a>. My main research interests lie in language agents and automatic research.
+            I am currently a first-year PhD student at <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener">Siebel School of Computing and Data Science</a>, <a href="https://illinois.edu/"  target="_blank" rel="noopener">University of Illinois Urbana-Champaign</a> advised by <a href="https://cs.stanford.edu/people/jiaxuan/" target="_blank" rel="noopener">Jiaxuan You</a>. I also work closely with <a href="https://pliang279.github.io/" target="_blank" rel="noopener">Paul Pu Liang</a>. My main research interests lie in language agents and automatic research.
         </p>
 
         <p>
             Before UIUC, I got my B.Eng. degree in Computer Science (with honors) at
             <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank" rel="noopener">ChuKochen Honors College</a> of
-            <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>. Afterwards, I got my M.S. in Intelligent Information Systems in <a href="https://www.lti.cs.cmu.edu"  target="_blank" rel="noopener">Language Technologies Institute</a> of <a href="https://www.cs.cmu.edu"  target="_blank" rel="noopener">School of Computer Science</a> at Carnegie Mellon University.
+            <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>. Afterwards, I got my M.S. in Intelligent Information Systems in <a href="https://www.lti.cs.cmu.edu"  target="_blank" rel="noopener">Language Technologies Institute</a> of <a href="https://www.cs.cmu.edu"  target="_blank" rel="noopener">School of Computer Science</a> at <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a>.
         </p>
 
         <p>
@@ -67,7 +67,6 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
 .profile-caption {
     text-align: center; /* Centers the text of the caption */
     padding-top: 0.5rem; /* Adds some space between the image and the caption */
-    font-style: italic;
     /* Add any additional styling you need for the caption here */
 }
 @media screen and (max-width: 576px) {
