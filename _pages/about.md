@@ -76,14 +76,44 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
         padding-bottom: 1rem;
     }
 }
+.venue {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .paper-links {
+    margin-bottom: 0.75rem;
+  }
+  
+  .paper-link {
+    display: inline-block;
+    margin-right: 0.5rem;
+    color: #2196f3;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .paper-link:hover {
+    text-decoration: underline;
+  }
+
+  .paper-authors {
+    color: var(--global-text-color);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .paper-authors strong {
+    font-weight: bold;
+  }
 </style>
 
 
 <!-- News -->
 <div class="news mt-3 p-0">
   <h3 class="title mb-4 p-0">News</h3>
-  {% assign news = site.news | reverse %}
-  {% for item in news limit: site.news_limit %}
+  {% for item in site.data.news limit: site.news_limit %}
     <div class="row p-0">
       <div class="col-sm-2 p-0">
         <span class="badge danger-color-dark darken-1 font-weight-bold text-uppercase align-middle date ml-3">
@@ -91,10 +121,203 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
         </span>
       </div>
       <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
-        <p>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
+        <p>{{ item.content | emojify }}</p>
       </div>
     </div>
   {% endfor %}
+</div>
+
+<!-- Publications -->
+<div class="publications mt-3 p-0">
+  <h3 class="title mb-4 p-0">Publications</h3>
+
+  <!-- Add the CSS -->
+  <style>
+    .tag-buttons {
+      margin-bottom: 1.5rem;
+    }
+    .tag-button {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      margin: 0.2rem;
+      border-radius: 999px;
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+    }
+    .tag-button:hover {
+      background-color: #e9ecef;
+    }
+    .tag-button.active {
+      background-color: #1976d2;
+      color: white;
+      border-color: #1976d2;
+    }
+    .paper-item {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      background-color: white;
+      transition: all 0.2s;
+      min-height: 160px;
+    }
+    .paper-item:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .paper-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 0.375rem;
+    }
+    .paper-image-container {
+      flex: 0 0 200px;  /* Fixed width, won't grow or shrink */
+      height: 140px;    /* Fixed height */
+      position: relative;
+      overflow: hidden;
+      border-radius: 0.375rem;
+    }
+    .paper-info {
+      flex-grow: 1;
+    }
+    .paper-title {
+      color: var(--global-theme-color);
+      font-size: 1.1rem;
+      font-weight: 500;
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+    .paper-title:hover {
+      text-decoration: underline;
+    }
+    .paper-authors {
+      color: var(--global-text-color);
+      font-size: 0.9rem;
+      margin-bottom: 0.75rem;
+    }
+    .paper-tag {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      margin: 0.2rem;
+      border-radius: 999px;
+      background-color: #f8f9fa;
+      color: var(--global-text-color);
+      font-size: 0.75rem;
+    }
+    @media screen and (max-width: 576px) {
+      .paper-item {
+        flex-direction: column;
+        min-height: auto;
+      }
+      .paper-image {
+        width: 100%;
+        margin-bottom: 1rem
+      }
+    }
+  </style>
+
+  <!-- JavaScript for filtering -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const papers = document.querySelectorAll('.paper-item');
+      const tagButtons = document.querySelectorAll('.tag-button');
+      let activeFilters = new Set();
+
+      tagButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const tag = this.getAttribute('data-tag');
+          if (activeFilters.has(tag)) {
+            activeFilters.delete(tag);
+            this.classList.remove('active');
+          } else {
+            activeFilters.add(tag);
+            this.classList.add('active');
+          }
+          filterPapers();
+        });
+      });
+
+      function filterPapers() {
+        if (activeFilters.size === 0) {
+          papers.forEach(paper => paper.style.display = 'flex');
+          return;
+        }
+        papers.forEach(paper => {
+          const paperTags = Array.from(paper.querySelectorAll('.paper-tag'))
+            .map(tag => tag.textContent.trim());
+          const shouldShow = Array.from(activeFilters)
+            .some(filter => paperTags.includes(filter));
+          paper.style.display = shouldShow ? 'flex' : 'none';
+        });
+      }
+    });
+  </script>
+
+  <!-- Filter buttons -->
+  <div class="tag-buttons">
+    {% assign all_tags = "" | split: ',' %}
+    {% for paper in site.data.papers %}
+      {% for tag in paper.tags %}
+        {% assign all_tags = all_tags | push: tag %}
+      {% endfor %}
+    {% endfor %}
+    {% assign unique_tags = all_tags | uniq | sort %}
+    {% for tag in unique_tags %}
+      <button class="tag-button" data-tag="{{ tag }}">{{ tag }}</button>
+    {% endfor %}
+  </div>
+
+<!-- Papers list -->
+{% for paper in site.data.papers %}
+  <div class="paper-item">
+    <div class="paper-image-container">
+      <img src="{{ paper.image | relative_url }}" alt="{{ paper.title }}" class="paper-image">
+    </div>
+    <div class="paper-info">
+      <a href="{{ paper.links.paper }}" class="paper-title" target="_blank" rel="noopener noreferrer">
+        {{ paper.title }}
+      </a>
+      <div class="paper-authors">
+        {% for author in paper.authors %}
+          {% if author contains "Haofei Yu" %}
+            <strong>{{ author }}</strong>
+          {% else %}
+            {{ author }}
+          {% endif %}
+          {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </div>
+      <div class="venue">{{ paper.venue }}</div>
+      <div class="paper-links">
+        {% if paper.links.paper %}
+          <a href="{{ paper.links.paper }}" target="_blank" rel="noopener noreferrer" class="paper-link">Paper</a>
+        {% endif %}
+        {% if paper.links.code %}
+          <a href="{{ paper.links.code }}" target="_blank" rel="noopener noreferrer" class="paper-link">Code</a>
+        {% endif %}
+        {% if paper.links.data %}
+          <a href="{{ paper.links.data }}" target="_blank" rel="noopener noreferrer" class="paper-link">Data</a>
+        {% endif %}
+        {% if paper.links.model %}
+          <a href="{{ paper.links.model }}" target="_blank" rel="noopener noreferrer" class="paper-link">Model</a>
+        {% endif %}
+        {% if paper.links.media %}
+          <a href="{{ paper.links.media }}" target="_blank" rel="noopener noreferrer" class="paper-link">Media</a>
+        {% endif %}
+      </div>
+      <div class="paper-tags">
+        {% for tag in paper.tags %}
+          <span class="paper-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
 </div>
 
 

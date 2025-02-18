@@ -1,0 +1,175 @@
+# Papers data file - newest first
+- title: "ResearchTown: Simulator of Human Research Community"
+  authors:
+    - "Haofei Yu*"
+    - "Zhaochen Hong*"
+    - "Zirui Cheng*"
+    - "Kunlun Zhu*"
+    - "Keyang Xuan"
+    - "Jinwei Yao"
+    - "Tao Feng"
+    - "Jiaxuan You"
+  venue: "arXiv 2024"
+  image: "/assets/img/papers/research_town.png"
+  links:
+    paper: "https://arxiv.org/pdf/2412.17767"
+    code: "https://github.com/ulab-uiuc/research-town"
+    data: "https://huggingface.co/datasets/ulab-ai/research-bench"
+  tags:
+    - "Social Simulation"
+
+- title: "MMoE: Enhancing Multimodal Models with Mixtures of Multimodal Interaction Experts"
+  authors:
+    - "Haofei Yu*"
+    - "Zhengyang Qi*"
+    - "Lawrence Jang*"
+    - "Ruslan Salakhutdinov"
+    - "Louis-Philippe Morency"
+    - "Paul Pu Liang"
+  venue: "EMNLP 2024"
+  image: "/assets/img/papers/mmoe.png"
+  links:
+    paper: "https://aclanthology.org/2024.emnlp-main.558.pdf"
+    code: "https://github.com/lwaekfjlk/mmoe"
+  tags:
+    - "Multimodal ML"
+
+- title: "SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents"
+  authors:
+    - "Ruiyi Wang*"
+    - "Haofei Yu*"
+    - "Wenxin Zhang*"
+    - "Zhengyang Qi*"
+    - "Maarten Sap"
+    - "Graham Neubig"
+    - "Yonatan Bisk"
+    - "Hao Zhu"
+  venue: "ACL 2024"
+  image: "/assets/img/papers/sotopia_pi.png"
+  links:
+    paper: "https://arxiv.org/pdf/2403.08715"
+    code: "https://github.com/sotopia-lab/sotopia-pi"
+    data: "https://huggingface.co/datasets/cmu-lti/sotopia-pi"
+    model: "https://huggingface.co/cmu-lti/sotopia-pi-mistral-7b-BC_SR"
+    media: "https://www.marktechpost.com/2024/03/16/can-social-intelligence-in-language-agents-be-enhanced-through-interaction-and-imitation-this-paper-introduces-sotopia-%CF%80-a-novel-approach-to-cultivating-ai-social-skills"
+  tags:
+    - "Social Learning"
+
+- title: "In-Context Learning May Not Elicit Trustworthy Reasoning: A-Not-B Errors in Pretrained Language Models"
+  authors:
+    - "Pengrui Han*"
+    - "Peiyang Song*"
+    - "Haofei Yu"
+    - "Jiaxuan You"
+  venue: "Findings of EMNLP 2024"
+  image: "/assets/img/papers/a_not_b.png"
+  links:
+    paper: "https://arxiv.org/pdf/2409.15454"
+    code: "https://github.com/Peiyang-Song/LLM-A-Not-B-Errors"
+  tags:
+    - "Other"
+
+- title: "HEMM: Holistic Evaluation of Multimodal Foundation Models"
+  authors:
+    - "Paul Pu Liang*"
+    - "Akshay Goindani*"
+    - "Talha Chafekar"
+    - "Leena Mathur"
+    - "Haofei Yu"
+    - "Ruslan Salakhutdinov"
+    - "Louis-Philippe Morency"
+  venue: "NeurIPS 2024 Dataset and Benchmark Track"
+  image: "/assets/img/papers/hemm.png"
+  links:
+    paper: "https://arxiv.org/pdf/2407.03418"
+    code: "https://github.com/pliang279/HEMM"
+  tags:
+    - "Multimodal ML"
+
+- title: "TRAMS: Training-free Memory Selection for Long-range Language Modeling"
+  authors:
+    - "Haofei Yu*"
+    - "Cunxiang Wang*"
+    - "Yue Zhang"
+    - "Wei Bi"
+  venue: "Findings of EMNLP 2023"
+  image: "/assets/img/papers/trams.png"
+  links:
+    paper: "https://arxiv.org/pdf/2310.15494"
+    code: "https://github.com/lwaekfjlk/trams"
+  tags:
+    - "Other"
+
+- title: "Sotopia: Interactive evaluation for social intelligence in language agents"
+  authors:
+    - "Xuhui Zhou*"
+    - "Hao Zhu*"
+    - "Leena Mathur"
+    - "Ruohong Zhang"
+    - "Haofei Yu"
+    - "Zhengyang Qi"
+    - "Louis-Philippe Morency"
+    - "Yonatan Bisk"
+    - "Daniel Fried"
+    - "Graham Neubig"
+    - "Maarten Sap"
+  venue: "ICLR 2024 (top 5% submission, Spotlight)"
+  image: "/assets/img/papers/sotopia.png"
+  links:
+    paper: "https://arxiv.org/pdf/2310.11667"
+    code: "https://github.com/sotopia-lab/sotopia"
+  tags:
+    - "Social Learning"
+    - "Social Simulation"
+
+- title: "Counting the Bugs in ChatGPT's Wugs: A Multilingual Investigation into the Morphological Capabilities of a Large Language Model"
+  authors:
+    - "Leonie Weissweiler*"
+    - "Valentin Hofmann*"
+    - "Anjali Kantharuban*"
+    - "Anna Cai"
+    - "Ritam Dutt"
+    - "Amey Hengle"
+    - "Anubha Kabra"
+    - "Atharva Kulkarni"
+    - "Abhishek Vijayakumar"
+    - "Haofei Yu"
+    - "Hinrich Schütze"
+    - "Kemal Oflazer"
+    - "David R Mortensen"
+  venue: "EMNLP 2023"
+  image: "/assets/img/papers/wugs.png"
+  links:
+    paper: "https://arxiv.org/pdf/2310.15113"
+    code: "https://github.com/dmort27/chatgpts-wugs"
+  tags:
+    - "Other"
+
+- title: "RFiD: Towards Rational Fusion-in-Decoder for Open-Domain Question Answering"
+  authors:
+    - "Cunxiang Wang*"
+    - "Haofei Yu*"
+    - "Yue Zhang"
+  venue: "Findings of ACL 2023"
+  image: "/assets/img/papers/rfid.png"
+  links:
+    paper: "https://arxiv.org/pdf/2305.17041"
+    code: "https://github.com/wangcunxiang/RFiD"
+  tags:
+    - "Other"
+
+- title: "Uni-Encoder: A Fast and Accurate Response Selection Paradigm for Generation-Based Dialogue Systems"
+  authors:
+    - "Chiyu Song*"
+    - "Hongliang He*"
+    - "Haofei Yu"
+    - "Pengfei Fang"
+    - "Leyang Cui"
+    - "Zhenzhong Lan"
+  venue: "Findings of ACL 2023"
+  image: "/assets/img/papers/uni_encoder.png"
+  links:
+    paper: "https://arxiv.org/abs/2106.01263"
+    code: "https://github.com/dll-wu/Uni-Encoder"
+  tags:
+    - "Other"
