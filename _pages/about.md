@@ -4,7 +4,7 @@ permalink: /
 title: about
 nav: About
 description: <a href="https://siebelschool.illinois.edu" class="page-description" target="_blank">Siebel School of Computing and Data Science</a> • <a href="https://illinois.edu" class="page-description" target="_blank">University of Illinois Urbana-Champaign</a>
-address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-description" target="_blank">2111A, 201 N Goodwin Ave, Urbana, IL 61801</a>
+address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-description" target="_blank">2119B, 201 N Goodwin Ave, Urbana, IL 61801</a>
 ---
 
 <div class="col p-0 pt-4 pb-4">
