@@ -69,19 +69,19 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
         <div class="venue">{{ paper.venue }}</div>
         <div class="paper-links">
           {% if paper.links.paper %}
-            <a href="{{ paper.links.paper }}" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+            <a href="{{ paper.links.paper }}" target="_blank" rel="noopener noreferrer" class="paper-link">[paper]</a>
           {% endif %}
           {% if paper.links.code %}
-            <a href="{{ paper.links.code }}" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
+            <a href="{{ paper.links.code }}" target="_blank" rel="noopener noreferrer" class="paper-link">[code]</a>
           {% endif %}
           {% if paper.links.data %}
-            <a href="{{ paper.links.data }}" target="_blank" rel="noopener noreferrer" class="paper-link">[Data]</a>
+            <a href="{{ paper.links.data }}" target="_blank" rel="noopener noreferrer" class="paper-link">[data]</a>
           {% endif %}
           {% if paper.links.model %}
-            <a href="{{ paper.links.model }}" target="_blank" rel="noopener noreferrer" class="paper-link">[Model]</a>
+            <a href="{{ paper.links.model }}" target="_blank" rel="noopener noreferrer" class="paper-link">[model]</a>
           {% endif %}
           {% if paper.links.media %}
-            <a href="{{ paper.links.media }}" target="_blank" rel="noopener noreferrer" class="paper-link">[Media]</a>
+            <a href="{{ paper.links.media }}" target="_blank" rel="noopener noreferrer" class="paper-link">[media]</a>
           {% endif %}
         </div>
       </div>

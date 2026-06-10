@@ -483,10 +483,13 @@ progress::-moz-progress-bar {
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 500;
-    transition: color 0.2s ease;
+    transition: color 0.2s ease, transform 0.15s ease;
 
     &:hover {
         color: darken($theme-color, 15%);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        transform: translateY(-1px);
     }
 }
 
