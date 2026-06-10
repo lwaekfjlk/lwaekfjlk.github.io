@@ -24,6 +24,12 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
   </div>
 </div>
 
+<!-- Photo -->
+<div class="photo-section">
+  <img src="{{ '/assets/img/self_pic_2.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Haofei Yu">
+  <figcaption class="photo-caption">Taken at <a href="https://en.wikipedia.org/wiki/G%C3%B6reme" target="_blank" rel="noopener">Goreme</a>, Cappadocia, Turkey. Credit to <a href="https://zns77.github.io/" target="_blank" rel="noopener">Naisong</a>.</figcaption>
+</div>
+
 <!-- Bio -->
 <div class="bio-section">
   <p>
@@ -41,78 +47,10 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
   </p>
 </div>
 
-<!-- Photo -->
-<div class="photo-section">
-  <img src="{{ '/assets/img/self_pic_2.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Haofei Yu">
-  <figcaption class="photo-caption">Taken at <a href="https://en.wikipedia.org/wiki/G%C3%B6reme" target="_blank" rel="noopener">Goreme</a>, Cappadocia, Turkey. Credit to <a href="https://zns77.github.io/" target="_blank" rel="noopener">Naisong</a>.</figcaption>
-</div>
-
-
-<!-- News -->
-<div class="news mt-3 p-0">
-  <h2 class="section-title">News</h2>
-  {% for item in site.data.news limit: site.news_limit %}
-    <div class="news-item">
-      <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
-      <span class="news-content">{{ item.content | emojify }}</span>
-    </div>
-  {% endfor %}
-</div>
 
 <!-- Publications -->
 <div class="publications mt-3 p-0">
   <h2 class="section-title">Publications</h2>
-
-  <!-- JavaScript for filtering -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const papers = document.querySelectorAll('.paper-item');
-      const tagButtons = document.querySelectorAll('.tag-button');
-      let activeFilters = new Set();
-
-      tagButtons.forEach(button => {
-        button.addEventListener('click', function() {
-          const tag = this.getAttribute('data-tag');
-          if (activeFilters.has(tag)) {
-            activeFilters.delete(tag);
-            this.classList.remove('active');
-          } else {
-            activeFilters.add(tag);
-            this.classList.add('active');
-          }
-          filterPapers();
-        });
-      });
-
-      function filterPapers() {
-        if (activeFilters.size === 0) {
-          papers.forEach(paper => paper.style.display = 'flex');
-          return;
-        }
-        papers.forEach(paper => {
-          const paperTags = Array.from(paper.querySelectorAll('.paper-tag'))
-            .map(tag => tag.textContent.trim());
-          const shouldShow = Array.from(activeFilters)
-            .some(filter => paperTags.includes(filter));
-          paper.style.display = shouldShow ? 'flex' : 'none';
-        });
-      }
-    });
-  </script>
-
-  <!-- Filter buttons -->
-  <div class="tag-buttons">
-    {% assign all_tags = "" | split: ',' %}
-    {% for paper in site.data.papers %}
-      {% for tag in paper.tags %}
-        {% assign all_tags = all_tags | push: tag %}
-      {% endfor %}
-    {% endfor %}
-    {% assign unique_tags = all_tags | uniq | sort %}
-    {% for tag in unique_tags %}
-      <button class="tag-button" data-tag="{{ tag }}">{{ tag }}</button>
-    {% endfor %}
-  </div>
 
   <!-- Papers list -->
   {% for paper in site.data.papers %}
@@ -151,11 +89,6 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
           {% if paper.links.media %}
             <a href="{{ paper.links.media }}" target="_blank" rel="noopener noreferrer" class="paper-link">Media</a>
           {% endif %}
-        </div>
-        <div class="paper-tags">
-          {% for tag in paper.tags %}
-            <span class="paper-tag">{{ tag }}</span>
-          {% endfor %}
         </div>
       </div>
     </div>
