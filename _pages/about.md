@@ -17,6 +17,7 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
   {% endif %}
   <div class="profile-links">
     <a href="mailto:{{ site.email }}" title="Email"><i class="fa fa-envelope"></i> Email</a>
+    <a href="{{ '/assets/pdf/cv.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener" title="CV"><i class="fas fa-file-alt"></i> CV</a>
     <a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i> Scholar</a>
     <a href="https://www.github.com/{{ site.github_username }}" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
