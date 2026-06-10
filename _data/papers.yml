@@ -9,7 +9,7 @@
     - "Jinwei Yao"
     - "Tao Feng"
     - "Jiaxuan You"
-  venue: "ICML 2024"
+  venue: "The 41st International Conference on Machine Learning (ICML 2024)"
   image: "/assets/img/papers/research_town.png"
   links:
     paper: "https://arxiv.org/pdf/2412.17767"
@@ -26,7 +26,7 @@
     - "Ruslan Salakhutdinov"
     - "Louis-Philippe Morency"
     - "Paul Pu Liang"
-  venue: "EMNLP 2024"
+  venue: "The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)"
   image: "/assets/img/papers/mmoe.png"
   links:
     paper: "https://aclanthology.org/2024.emnlp-main.558.pdf"

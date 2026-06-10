@@ -425,26 +425,20 @@ progress::-moz-progress-bar {
     border-bottom: 2px solid #e2e8f0;
 }
 
-/* Paper Items */
+/* Paper Items — borderless rows separated by hairlines */
 .paper-item {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    margin-bottom: 1.25rem;
-    padding: 1rem;
-    border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #f1f5f9;
-    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    padding: 1.25rem 0;
 
-    &:hover {
-        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-        border-color: #e2e8f0;
+    & + .paper-item {
+        border-top: 1px solid #f1f5f9;
     }
 }
 
 .paper-image-container {
-    flex: 0 0 220px;
+    flex: 0 0 280px;
     border-radius: 6px;
     border: 1px solid #f1f5f9;
     overflow: hidden;
