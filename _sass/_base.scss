@@ -352,7 +352,7 @@ progress::-moz-progress-bar {
         display: inline-flex;
         align-items: center;
         gap: 0.35rem;
-        font-size: 0.85rem;
+        font-size: 0.95rem;
         color: #475569;
         text-decoration: none;
         transition: color 0.2s ease;
@@ -404,10 +404,10 @@ progress::-moz-progress-bar {
 
 /* Inline organization icons in bio */
 .org-icon {
-    height: 1em;
-    width: 1em;
+    height: 1.2em;
+    width: 1.2em;
     object-fit: contain;
-    vertical-align: -0.125em;
+    vertical-align: -0.2em;
     margin-right: 0.2rem;
     display: inline-block;
 }

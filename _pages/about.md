@@ -34,13 +34,13 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
 <!-- Bio -->
 <div class="bio-section">
   <p>
-    I am currently a second-year PhD student at <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener">Siebel School of Computing and Data Science</a>, <a href="https://illinois.edu/" target="_blank" rel="noopener"><img class="org-icon" src="{{ '/assets/img/icons/uiuc.png' | prepend: site.baseurl | prepend: site.url }}" alt="">University of Illinois Urbana-Champaign</a> advised by <a href="https://cs.stanford.edu/people/jiaxuan/" target="_blank" rel="noopener">Jiaxuan You</a>. I also work closely with <a href="https://pliang279.github.io/" target="_blank" rel="noopener">Paul Pu Liang</a>. My main research interests lie in reinforcement learning and world modeling.
+    I am currently a second-year PhD student at <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener">Siebel School of Computing and Data Science</a>, <a href="https://illinois.edu/" target="_blank" rel="noopener">University of Illinois Urbana-Champaign</a> advised by <a href="https://cs.stanford.edu/people/jiaxuan/" target="_blank" rel="noopener">Jiaxuan You</a>. I also work closely with <a href="https://pliang279.github.io/" target="_blank" rel="noopener">Paul Pu Liang</a>. My main research interests lie in <strong>reinforcement learning</strong> and <strong>world modeling</strong>.
   </p>
 
   <p>
     Before UIUC, I got my B.Eng. degree in Computer Science (with honors) at
-    <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank" rel="noopener"><img class="org-icon" src="{{ '/assets/img/icons/zju.png' | prepend: site.baseurl | prepend: site.url }}" alt="">ChuKochen Honors College</a> of
-    <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>. Afterwards, I got my M.S. in Intelligent Information Systems in <a href="https://www.lti.cs.cmu.edu" target="_blank" rel="noopener"><img class="org-icon" src="{{ '/assets/img/icons/cmu.png' | prepend: site.baseurl | prepend: site.url }}" alt="">Language Technologies Institute</a> of <a href="https://www.cs.cmu.edu" target="_blank" rel="noopener">School of Computer Science</a> at <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a>.
+    <a href="http://ckc.zju.edu.cn/ckcen/" target="_blank" rel="noopener">ChuKochen Honors College</a> of
+    <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener"><img class="org-icon" src="{{ '/assets/img/icons/zju.png' | prepend: site.baseurl | prepend: site.url }}" alt="">Zhejiang University</a>. Afterwards, I got my M.S. in Intelligent Information Systems in <a href="https://www.lti.cs.cmu.edu" target="_blank" rel="noopener">Language Technologies Institute</a> of <a href="https://www.cs.cmu.edu" target="_blank" rel="noopener">School of Computer Science</a> at <a href="https://www.cmu.edu/" target="_blank" rel="noopener"><img class="org-icon" src="{{ '/assets/img/icons/cmu.png' | prepend: site.baseurl | prepend: site.url }}" alt="">Carnegie Mellon University</a>.
   </p>
 
   <p>
