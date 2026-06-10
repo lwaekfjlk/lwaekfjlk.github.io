@@ -78,6 +78,18 @@ markdown: kramdown
 # Includes
 include: ['_pages']
 
+# Excludes (keep Jekyll 3 defaults — setting exclude replaces them — plus repo files
+# that the GitHub Pages optional-front-matter plugin would otherwise turn into pages)
+exclude:
+  - docs
+  - bin
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
 # Plugins
 plugins:
   - jekyll-paginate
