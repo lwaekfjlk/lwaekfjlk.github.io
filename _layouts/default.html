@@ -9,7 +9,7 @@
   <meta name="description" content="{{ site.description }}">
 
   <!-- Fonts and Icons -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
 
   <!-- CSS Files -->
   <link rel="stylesheet" href="{{ '/assets/css/all.min.css' | prepend: site.baseurl | prepend: site.url }}">
@@ -19,22 +19,11 @@
 </head>
 <body>
   <!-- Header -->
-  <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
+  <nav id="navbar" class="navbar fixed-top navbar-expand-md navbar-light">
     <div class="container-fluid p-0">
-      {% if page.title != "about" %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">Haofei</span> Yu</a>
-      {% else %}
-        <div class="row ml-1 ml-sm-0">
-          <span class="contact-icon text-center" style="line-height: 1em;">
-            <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square gm-icon"></i></a>
-            <a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square gs-icon"></i></a>
-            <a href="https://www.github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github-square gh-icon"></i></a>
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin li-icon"></i></a>
-            <!--<a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title="Facebook"><i class="fab fa-facebook-square fb-icon"></i></a>-->
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter-square tw-icon"></i></a>
-          </span>
-        </div>
-      {% endif %}
+      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+        <span class="font-weight-bold">Haofei</span> Yu
+      </a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,12 +38,11 @@
                 </a>
             </li>
 
-            <li class="nav-item {% if page.title == " about" %}navbar-active font-weight-bold{% endif %}">
+            <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/assets/pdf/cv.pdf">
                     CV
                 </a>
             </li>
-
 
             {% for p in site.pages %}
                 {% if p.title %}
@@ -79,13 +67,6 @@
     </div>
   </nav>
 
-  <!-- Scrolling Progress Bar -->
-  <progress id="progress" value="0">
-    <div class="progress-container">
-      <span class="progress-bar"></span>
-    </div>
-  </progress>
-
   <!-- Content -->
   <div class="content">
     {{ content }}
@@ -93,7 +74,7 @@
 
   <!-- Footer -->
   <footer>
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}.
+    &copy; {{ site.time | date: '%Y' }} {{ site.name }}.
     {{ site.footer_text }}
     {% if site.last_updated %}
       Last updated: {{ site.last_updated }}.
@@ -110,53 +91,15 @@
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
   <script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
-  <!-- Scrolling Progress Bar -->
+  <!-- Navbar Spacing -->
   <script type="text/javascript">
     $(document).ready(function() {
       var navbarHeight = $('#navbar').outerHeight(true);
       $('body').css({ 'padding-top': navbarHeight });
-      $('progress-container').css({ 'padding-top': navbarHeight });
-      var progressBar = $('#progress');
-      progressBar.css({ 'top': navbarHeight });
-      var getMax = function() { return $(document).height() - $(window).height(); }
-      var getValue = function() { return $(window).scrollTop(); }   
-      // Check if the browser supports the progress element.
-      if ('max' in document.createElement('progress')) {
-        // Set the 'max' attribute for the first time.
-        progressBar.attr({ max: getMax() });
-        progressBar.attr({ value: getValue() });
-    
-        $(document).on('scroll', function() {
-          // On scroll only the 'value' attribute needs to be calculated.
-          progressBar.attr({ value: getValue() });
-        });
-
-        $(window).resize(function() {
-          var navbarHeight = $('#navbar').outerHeight(true);
-          $('body').css({ 'padding-top': navbarHeight });
-          $('progress-container').css({ 'padding-top': navbarHeight });
-          progressBar.css({ 'top': navbarHeight });
-          // On resize, both the 'max' and 'value' attributes need to be calculated.
-          progressBar.attr({ max: getMax(), value: getValue() });
-        });
-      } else {
-        var max = getMax(), value, width;
-        var getWidth = function() {
-          // Calculate the window width as a percentage.
-          value = getValue();
-          width = (value/max) * 100;
-          width = width + '%';
-          return width;
-        }
-        var setWidth = function() { progressBar.css({ width: getWidth() }); };
-        setWidth();
-        $(document).on('scroll', setWidth);
-        $(window).on('resize', function() {
-          // Need to reset the 'max' attribute.
-          max = getMax();
-          setWidth();
-        });
-      }
+      $(window).resize(function() {
+        var navbarHeight = $('#navbar').outerHeight(true);
+        $('body').css({ 'padding-top': navbarHeight });
+      });
     });
   </script>
 

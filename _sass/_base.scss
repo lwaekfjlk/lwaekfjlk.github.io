@@ -74,7 +74,7 @@ footer {
 }
 
 .title {
-    font-family: 'Crimson Pro', 'Roboto Slab', Georgia, serif;
+    font-family: 'Inter', -apple-system, Helvetica, sans-serif;
 }
 
 // Links
@@ -316,9 +316,10 @@ progress::-moz-progress-bar {
 }
 
 .profile-name {
-    font-family: 'Crimson Pro', Georgia, serif;
+    font-family: 'Inter', -apple-system, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: 700;
+    letter-spacing: -0.02em;
     color: #1e293b;
     margin: 0 0 0.25rem 0;
     line-height: 1.2;
@@ -421,7 +422,7 @@ progress::-moz-progress-bar {
 
 /* Section Titles */
 .section-title {
-    font-family: 'Crimson Pro', Georgia, serif;
+    font-family: 'Inter', -apple-system, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     color: #1e293b;
