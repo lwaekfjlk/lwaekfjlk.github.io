@@ -16,7 +16,7 @@ $caption_color: #64748b;
 /* COLORS — Academic Blue Palette */
 $red:           #FF3636;
 $orange:        #F29105;
-$blue:          #2563EB;
+$blue:          #1e40af;
 $green:         #11D68B;
 $lime_green:    #B7D12A;
 $purple:        #B509AC;
@@ -29,8 +29,8 @@ $grey-color-dark:   #1e293b;
 $grey-color-light:  #e2e8f0;
 $text-color:        #334155;
 
-/* Set theme color — refined academic blue */
-$theme-color: #2563EB;
+/* Set theme color — navy academic blue */
+$theme-color: #1e40af;
 $background-color: #fafbfc;
 
 /************************************************************/
@@ -441,7 +441,7 @@ progress::-moz-progress-bar {
 
 .paper-title {
     color: #1e293b;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     text-decoration: none;
     margin-bottom: 0.4rem;
@@ -455,7 +455,7 @@ progress::-moz-progress-bar {
 
 .paper-authors {
     color: #475569;
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     margin-bottom: 0.3rem;
     line-height: 1.5;
 
@@ -466,7 +466,7 @@ progress::-moz-progress-bar {
 }
 
 .venue {
-    font-size: 0.83rem;
+    font-size: 0.875rem;
     color: #64748b;
     margin-bottom: 0.4rem;
     font-style: italic;
@@ -481,7 +481,7 @@ progress::-moz-progress-bar {
     margin-right: 0.5rem;
     color: $theme-color;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     font-weight: 500;
     transition: color 0.2s ease;
 
