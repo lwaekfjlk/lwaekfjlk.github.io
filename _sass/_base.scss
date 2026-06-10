@@ -427,7 +427,7 @@ progress::-moz-progress-bar {
 
 /* Paper Items — borderless text rows separated by hairlines */
 .paper-item {
-    padding: 1.25rem 0;
+    padding: 0.85rem 0;
 
     & + .paper-item {
         border-top: 1px solid #f1f5f9;
@@ -444,7 +444,7 @@ progress::-moz-progress-bar {
     font-size: 1.1rem;
     font-weight: 500;
     text-decoration: none;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.2rem;
     display: block;
     line-height: 1.4;
 
@@ -456,8 +456,8 @@ progress::-moz-progress-bar {
 .paper-authors {
     color: #475569;
     font-size: 0.875rem;
-    margin-bottom: 0.3rem;
-    line-height: 1.5;
+    margin-bottom: 0.15rem;
+    line-height: 1.45;
 
     strong {
         font-weight: 600;
@@ -468,12 +468,12 @@ progress::-moz-progress-bar {
 .venue {
     font-size: 0.875rem;
     color: #64748b;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.15rem;
     font-style: italic;
 }
 
 .paper-links {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0;
 }
 
 .paper-link {
