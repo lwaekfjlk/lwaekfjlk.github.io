@@ -1,6 +1,6 @@
 
 /** Variables **********************************************/
-$base-font-family:              'Inter', Helvetica, sans-serif;
+$base-font-family:              'Noto Sans', Helvetica, sans-serif;
 $base-font-size:                16px;
 $base-line-height:              1.6;
 $horizontal-spacing-unit:       50px;
@@ -45,7 +45,7 @@ body {
     -webkit-text-size-adjust: 100%;
     font-family: $base-font-family;
     font-size: $base-font-size;
-    font-weight: 450;
+    font-weight: 400;
     line-height: $base-line-height;
 }
 
@@ -73,7 +73,7 @@ footer {
 }
 
 .title {
-    font-family: 'Inter', -apple-system, Helvetica, sans-serif;
+    font-family: 'Noto Sans', -apple-system, Helvetica, sans-serif;
 }
 
 // Links
@@ -315,7 +315,7 @@ progress::-moz-progress-bar {
 }
 
 .profile-name {
-    font-family: 'Inter', -apple-system, Helvetica, sans-serif;
+    font-family: 'Noto Sans', -apple-system, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: -0.02em;
@@ -416,7 +416,7 @@ progress::-moz-progress-bar {
 
 /* Section Titles */
 .section-title {
-    font-family: 'Inter', -apple-system, Helvetica, sans-serif;
+    font-family: 'Noto Sans', -apple-system, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     color: #1e293b;
