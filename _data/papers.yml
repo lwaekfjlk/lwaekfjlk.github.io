@@ -1,14 +1,15 @@
 # Papers data file - newest first
 - title: "CTM-AI: A Blueprint for General AI Inspired by a Model of Consciousness"
   authors:
-    - "Haofei Yu"
-    - "Yining Zhao"
+    - "Haofei Yu*"
+    - "Yining Zhao*"
     - "Lenore Blum"
     - "Manuel Blum"
     - "Paul Pu Liang"
   venue: "Under Review"
   links:
     paper: "https://arxiv.org/abs/2605.04097"
+    code: "https://github.com/consciousness-lab/ctm-ai"
 
 - title: "ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery"
   authors:
@@ -20,12 +21,14 @@
   venue: "Under Review"
   links:
     paper: "https://arxiv.org/abs/2605.16902"
+    code: "https://github.com/allenai/artifact-linker"
+    data: "https://huggingface.co/datasets/lwaekfjlk/artifact-bench"
 
 - title: "Sotopia-RL: Reward Design for Social Intelligence"
   authors:
-    - "Haofei Yu"
-    - "Zhengyang Qi"
-    - "Yining Zhao"
+    - "Haofei Yu*"
+    - "Zhengyang Qi*"
+    - "Yining Zhao*"
     - "Kolby Nottingham"
     - "Keyang Xuan"
     - "Bodhisattwa Prasad Majumder"
@@ -35,6 +38,8 @@
   venue: "Under Review"
   links:
     paper: "https://arxiv.org/abs/2508.03905"
+    code: "https://github.com/sotopia-lab/sotopia-rl"
+    model: "https://huggingface.co/ulab-ai/sotopia-rl-qwen-2.5-7B-grpo"
 
 - title: "Building Social World Models with Large Language Models"
   authors:
