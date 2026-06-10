@@ -20,7 +20,7 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
     <a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i> Scholar</a>
     <a href="https://www.github.com/{{ site.github_username }}" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener" title="X"><i class="fab fa-twitter"></i> X</a>
+    <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener" title="X"><svg class="x-logo-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg> X</a>
   </div>
 </div>
 
