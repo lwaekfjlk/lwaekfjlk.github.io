@@ -4,8 +4,7 @@
 $max-page-width: 800px;
 
 body {
-  // Padding for the navigation bar.
-  padding-top: 56px;
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -32,7 +31,7 @@ body {
 
 .content {
   @extend .container-fluid;
-  margin-top: 0;
+  margin-top: 1.25rem;
 }
 
 footer {
