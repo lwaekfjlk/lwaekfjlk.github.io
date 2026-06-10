@@ -43,7 +43,7 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
   </p>
 
   <p>
-    I have multiple industrial internship experiences including <a href="https://ai.tencent.com/ailab/en/about/" target="_blank" rel="noopener">Tencent AI Lab</a> (2022), <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple Siri Information and Intelligence Team</a> (2023), <a href="https://mitibmwatsonailab.mit.edu" target="_blank" rel="noopener">MIT-IBM Watson AI Lab</a> (2024), and <a href="https://allenai.org/" target="_blank" rel="noopener">Allen Institute for AI (Ai2)</a> (2025). All focusing on language modeling and its applications.
+    I have multiple industrial internship experiences including <a href="https://ai.tencent.com/ailab/en/about/" target="_blank" rel="noopener">Tencent AI Lab</a> (2022), <a href="https://www.apple.com/siri/" target="_blank" rel="noopener">Apple Siri Information and Intelligence Team</a> (2023), <a href="https://mitibmwatsonailab.mit.edu" target="_blank" rel="noopener">MIT-IBM Watson AI Lab</a> (2024), <a href="https://allenai.org/" target="_blank" rel="noopener">Allen Institute for AI (Ai2)</a> (2025), and <a href="https://ai.meta.com/" target="_blank" rel="noopener">Meta AI</a> (2026). All focusing on language modeling and its applications.
   </p>
 </div>
 
@@ -64,14 +64,7 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
         <span class="paper-title">{{ paper.title }}</span>
         {% endif %}
         <div class="paper-authors">
-          {% for author in paper.authors %}
-            {% if author contains "Haofei Yu" %}
-              <strong>{{ author }}</strong>
-            {% else %}
-              {{ author }}
-            {% endif %}
-            {% unless forloop.last %}, {% endunless %}
-          {% endfor %}
+          {% for author in paper.authors %}{% if author contains "Haofei Yu" %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
         </div>
         <div class="venue">{{ paper.venue }}</div>
         <div class="paper-links">
