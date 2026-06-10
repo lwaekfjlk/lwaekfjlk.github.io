@@ -1,4 +1,52 @@
 # Papers data file - newest first
+- title: "CTM-AI: A Blueprint for General AI Inspired by a Model of Consciousness"
+  authors:
+    - "Haofei Yu"
+    - "Yining Zhao"
+    - "Lenore Blum"
+    - "Manuel Blum"
+    - "Paul Pu Liang"
+  venue: "Under Review"
+  links:
+    paper: "https://arxiv.org/abs/2605.04097"
+
+- title: "ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery"
+  authors:
+    - "Haofei Yu"
+    - "Jiaxuan You"
+    - "Peter Clark"
+    - "Bodhisattwa Prasad Majumder"
+    - "Kyle Richardson"
+  venue: "Under Review"
+  links:
+    paper: "https://arxiv.org/abs/2605.16902"
+
+- title: "Sotopia-RL: Reward Design for Social Intelligence"
+  authors:
+    - "Haofei Yu"
+    - "Zhengyang Qi"
+    - "Yining Zhao"
+    - "Kolby Nottingham"
+    - "Keyang Xuan"
+    - "Bodhisattwa Prasad Majumder"
+    - "Hao Zhu"
+    - "Paul Pu Liang"
+    - "Jiaxuan You"
+  venue: "Under Review"
+  links:
+    paper: "https://arxiv.org/abs/2508.03905"
+
+- title: "Building Social World Models with Large Language Models"
+  authors:
+    - "Haofei Yu"
+    - "Yining Zhao"
+    - "Guanyu Lin"
+    - "Jiaxuan You"
+  venue: "The 43rd International Conference on Machine Learning (ICML 2026)"
+  links:
+    code: "https://github.com/ulab-uiuc/social-world-model"
+    data: "https://huggingface.co/datasets/ulab-ai/swm-bench"
+
 - title: "ResearchTown: Simulator of Human Research Community"
   authors:
     - "Haofei Yu*"
@@ -10,13 +58,10 @@
     - "Tao Feng"
     - "Jiaxuan You"
   venue: "The 42nd International Conference on Machine Learning (ICML 2025)"
-  image: "/assets/img/papers/research_town.png"
   links:
     paper: "https://arxiv.org/pdf/2412.17767"
     code: "https://github.com/ulab-uiuc/research-town"
     data: "https://huggingface.co/datasets/ulab-ai/research-bench"
-  tags:
-    - "Social Simulation"
 
 - title: "MMoE: Enhancing Multimodal Models with Mixtures of Multimodal Interaction Experts"
   authors:
@@ -27,9 +72,6 @@
     - "Louis-Philippe Morency"
     - "Paul Pu Liang"
   venue: "The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)"
-  image: "/assets/img/papers/mmoe.png"
   links:
     paper: "https://aclanthology.org/2024.emnlp-main.558.pdf"
     code: "https://github.com/lwaekfjlk/mmoe"
-  tags:
-    - "Multimodal ML"

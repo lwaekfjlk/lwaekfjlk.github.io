@@ -56,9 +56,13 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
   {% for paper in site.data.papers %}
     <div class="paper-item">
       <div class="paper-info">
+        {% if paper.links.paper %}
         <a href="{{ paper.links.paper }}" class="paper-title" target="_blank" rel="noopener noreferrer">
           {{ paper.title }}
         </a>
+        {% else %}
+        <span class="paper-title">{{ paper.title }}</span>
+        {% endif %}
         <div class="paper-authors">
           {% for author in paper.authors %}
             {% if author contains "Haofei Yu" %}
