@@ -33,7 +33,7 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
 <!-- Bio -->
 <div class="bio-section">
   <p>
-    I am currently a second-year PhD student at <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener">Siebel School of Computing and Data Science</a>, <a href="https://illinois.edu/" target="_blank" rel="noopener">University of Illinois Urbana-Champaign</a> advised by <a href="https://cs.stanford.edu/people/jiaxuan/" target="_blank" rel="noopener">Jiaxuan You</a>. I also work closely with <a href="https://pliang279.github.io/" target="_blank" rel="noopener">Paul Pu Liang</a>. My main research interests lie in community modeling.
+    I am currently a second-year PhD student at <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener">Siebel School of Computing and Data Science</a>, <a href="https://illinois.edu/" target="_blank" rel="noopener">University of Illinois Urbana-Champaign</a> advised by <a href="https://cs.stanford.edu/people/jiaxuan/" target="_blank" rel="noopener">Jiaxuan You</a>. I also work closely with <a href="https://pliang279.github.io/" target="_blank" rel="noopener">Paul Pu Liang</a>. My main research interests lie in reinforcement learning and world modeling.
   </p>
 
   <p>
