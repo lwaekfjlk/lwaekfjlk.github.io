@@ -55,9 +55,6 @@ address: <a href="https://maps.app.goo.gl/DjM78WnuPHuYT8636" class="page-descrip
   <!-- Papers list -->
   {% for paper in site.data.papers %}
     <div class="paper-item">
-      <div class="paper-image-container">
-        <img src="{{ paper.image | relative_url }}" alt="{{ paper.title }}" class="paper-image" loading="lazy">
-      </div>
       <div class="paper-info">
         <a href="{{ paper.links.paper }}" class="paper-title" target="_blank" rel="noopener noreferrer">
           {{ paper.title }}

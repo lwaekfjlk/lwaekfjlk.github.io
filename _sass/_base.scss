@@ -425,29 +425,13 @@ progress::-moz-progress-bar {
     border-bottom: 2px solid #e2e8f0;
 }
 
-/* Paper Items — borderless rows separated by hairlines */
+/* Paper Items — borderless text rows separated by hairlines */
 .paper-item {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
     padding: 1.25rem 0;
 
     & + .paper-item {
         border-top: 1px solid #f1f5f9;
     }
-}
-
-.paper-image-container {
-    flex: 0 0 280px;
-    border-radius: 6px;
-    border: 1px solid #f1f5f9;
-    overflow: hidden;
-}
-
-.paper-image {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 .paper-info {
@@ -506,14 +490,3 @@ progress::-moz-progress-bar {
     }
 }
 
-@media screen and (max-width: 576px) {
-    .paper-item {
-        flex-direction: column;
-        min-height: auto;
-    }
-
-    .paper-image-container {
-        flex: none;
-        width: 100%;
-    }
-}
