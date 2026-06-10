@@ -402,6 +402,16 @@ progress::-moz-progress-bar {
 }
 
 
+/* Inline organization icons in bio */
+.org-icon {
+    height: 1em;
+    width: 1em;
+    object-fit: contain;
+    vertical-align: -0.125em;
+    margin-right: 0.2rem;
+    display: inline-block;
+}
+
 /* Bio */
 .bio-section {
     margin-bottom: 2rem;
