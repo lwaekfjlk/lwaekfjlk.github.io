@@ -353,12 +353,12 @@ progress::-moz-progress-bar {
         align-items: center;
         gap: 0.35rem;
         font-size: 0.95rem;
-        color: #475569;
+        color: $theme-color;
         text-decoration: none;
         transition: color 0.2s ease;
 
         &:hover {
-            color: $theme-color;
+            color: darken($theme-color, 15%);
         }
 
         i {

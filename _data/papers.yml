@@ -6,7 +6,7 @@
     - "Lenore Blum"
     - "Manuel Blum"
     - "Paul Pu Liang"
-  venue: "Under Review"
+  venue: "Preprint (under review)"
   links:
     paper: "https://arxiv.org/abs/2605.04097"
     code: "https://github.com/consciousness-lab/ctm-ai"
@@ -18,7 +18,7 @@
     - "Peter Clark"
     - "Bodhisattwa Prasad Majumder"
     - "Kyle Richardson"
-  venue: "Under Review"
+  venue: "Preprint (under review)"
   links:
     paper: "https://arxiv.org/abs/2605.16902"
     code: "https://github.com/allenai/artifact-linker"
@@ -35,7 +35,7 @@
     - "Hao Zhu"
     - "Paul Pu Liang"
     - "Jiaxuan You"
-  venue: "Under Review"
+  venue: "Preprint (under review)"
   links:
     paper: "https://arxiv.org/abs/2508.03905"
     code: "https://github.com/sotopia-lab/sotopia-rl"
@@ -49,6 +49,7 @@
     - "Jiaxuan You"
   venue: "The 43rd International Conference on Machine Learning (ICML 2026)"
   links:
+    paper: "https://arxiv.org/abs/2606.11482"
     code: "https://github.com/ulab-uiuc/social-world-model"
     data: "https://huggingface.co/datasets/ulab-ai/swm-bench"
 
