@@ -11,19 +11,6 @@
     paper: "https://arxiv.org/abs/2605.04097"
     code: "https://github.com/consciousness-lab/ctm-ai"
 
-- title: "ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery"
-  authors:
-    - "Haofei Yu"
-    - "Jiaxuan You"
-    - "Peter Clark"
-    - "Bodhisattwa Prasad Majumder"
-    - "Kyle Richardson"
-  venue: "Preprint (under review)"
-  links:
-    paper: "https://arxiv.org/abs/2605.16902"
-    code: "https://github.com/allenai/artifact-linker"
-    data: "https://huggingface.co/datasets/lwaekfjlk/artifact-bench"
-
 - title: "Sotopia-RL: Reward Design for Social Intelligence"
   authors:
     - "Haofei Yu*"
@@ -40,6 +27,19 @@
     paper: "https://arxiv.org/abs/2508.03905"
     code: "https://github.com/sotopia-lab/sotopia-rl"
     model: "https://huggingface.co/ulab-ai/sotopia-rl-qwen-2.5-7B-grpo"
+
+- title: "ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery"
+  authors:
+    - "Haofei Yu"
+    - "Jiaxuan You"
+    - "Peter Clark"
+    - "Bodhisattwa Prasad Majumder"
+    - "Kyle Richardson"
+  venue: "The Third Conference on Language Modeling (COLM 2026)"
+  links:
+    paper: "https://arxiv.org/abs/2605.16902"
+    code: "https://github.com/allenai/artifact-linker"
+    data: "https://huggingface.co/datasets/lwaekfjlk/artifact-bench"
 
 - title: "Building Social World Models with Large Language Models"
   authors:
